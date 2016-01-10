@@ -812,7 +812,7 @@ END MP4 VIDEO SECTION
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 
-						<a href="" class="btn btn-default btn-lg standard-button"><i class="icon-google-play"></i>Play Store</a>
+						<a href="https://play.google.com/store/apps/details?id=com.dev.victor.spaper" class="btn btn-default btn-lg standard-button"><i class="icon-google-play"></i>Play Store</a>
 
 					</div>
 					<!-- /END BUTTONS -->
@@ -946,13 +946,13 @@ END MP4 VIDEO SECTION
 
 	<!-- SOCIAL ICONS -->
 	<ul class="social-icons">
-		<li><a href=""><i class="social_facebook_square"></i></a></li>
+		<li><a href="https://www.facebook.com/simplypaperhn/"><i class="social_facebook_square"></i></a></li>
 		<li><a href=""><i class="social_twitter_square"></i></a></li>
-		<li><a href=""><i class="social_pinterest_square"></i></a></li>
-		<li><a href=""><i class="social_googleplus_square"></i></a></li>
+		<!--<li><a href=""><i class="social_pinterest_square"></i></a></li>-->
+		<li><a href="https://plus.google.com/u/0/communities/108197617256280498502"><i class="social_googleplus_square"></i></a></li>
 		<li><a href=""><i class="social_instagram_square"></i></a></li>
-		<li><a href=""><i class="social_dribbble_square"></i></a></li>
-		<li><a href=""><i class="social_flickr_square"></i></a></li>
+		<!--<li><a href=""><i class="social_dribbble_square"></i></a></li>-->
+		<li><a href="https://www.flickr.com/groups/simplypaper/"><i class="social_flickr_square"></i></a></li>
 	</ul>
 
 	<!-- COPYRIGHT TEXT -->
