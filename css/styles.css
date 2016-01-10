@@ -102,6 +102,7 @@ li {
     position: absolute;
     left: 50%;
     top: 50%;
+    
     background-image: url(../images/puff.svg) format('svg');
     background-repeat: no-repeat;
     background-position: center;

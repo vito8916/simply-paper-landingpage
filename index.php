@@ -74,7 +74,12 @@
 <!-- =========================
      PRE LOADER
 ============================== -->
-
+<div class="preloader">
+  <div class="status">
+  <img src="images/puff.svg"/>
+  &nbsp;</div>
+  
+</div>
 
 <!-- =========================
      HEADER
