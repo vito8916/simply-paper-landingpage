@@ -65,8 +65,7 @@
 			<script src="js/respond.min.js"></script>
 <![endif]-->
 
-<!-- JQUERY -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -998,6 +997,8 @@ END MP4 VIDEO SECTION
 <script src="js/retina.min.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/matchMedia.js"></script>
+<!-- JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/jquery.fitvids.js"></script>
 <script src="js/custom.js"></script>
