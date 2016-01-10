@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Responsive Bootstrap App Landing Page Template">
-<meta name="keywords" content="Kane, Bootstrap, Landing page, Template, App, Mobile, Android, iOS">
-<meta name="author" content="Mizanur Rahman">
+<meta name="description" content="the best minimalist wallpapers app">
+<meta name="keywords" content="simply paper, android, wallpaper, fon de pantalla, App, Mobile">
+<meta name="author" content="Víctor Alvarado">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <!-- SITE TITLE -->
