@@ -596,7 +596,7 @@ END MP4 VIDEO SECTION
 			<!-- SERVICE DESCRIPTION -->
 			<p>
 				 Tienes preguntas?, necesitas ayuda?, Quieres saber más acerca de nosotros?
-				 Escribenos desde las sección de "Ayuda" se la app y ponte en contacto con el
+				 Escribenos desde las sección de "Ayuda" de la app y ponte en contacto con el
 				 desarrollador de Simply paper.
 			</p>
 
