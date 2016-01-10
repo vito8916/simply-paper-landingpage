@@ -45,6 +45,7 @@
 
 <!-- CUSTOM STYLESHEETS -->
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/background.css">
 
 <!-- COLORS -->
 <!-- <link rel="stylesheet" href="css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
@@ -73,12 +74,7 @@
 <!-- =========================
      PRE LOADER
 ============================== -->
-<div class="preloader">
-  <div class="status">
-  &nbsp;
-  <img src="images/puff.svg"/>
-  </div>
-</div>
+
 
 <!-- =========================
      HEADER
@@ -510,13 +506,7 @@
 <!-- -->
 
 <!--//MP4 VIDEO SECTION STARTS-->
-	<section  class="wallpapered video-section" data-wallpaper-options='
-	{"source":{
-	"webm":"http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.webm",
-	"mp4":"http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.mp4",
-	"ogg":"http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.ogv",
-	"poster":"http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.jpg"
-	}}'>
+	<section  class="target video-section" >
 	<div class="video_overlay">
 		<div id="video_content">
 			<div class="col-sm-12 col-lg-10 col-lg-offset-1 text-center wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
@@ -975,8 +965,10 @@ END MP4 VIDEO SECTION
 <!-- =========================
      SCRIPTS
 ============================== -->
-
+<!-- JQUERY -->
+<script src="js/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.fs.wallpaper.js"></script>
+
 <script type="text/javascript">
 //<![CDATA[
 	$(document).ready(function() {
@@ -984,6 +976,20 @@ END MP4 VIDEO SECTION
 	});
 //]]>
 </script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    $(".target").background({
+    source: {
+        poster: "http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.jpg",
+        webm: "http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.webm",
+        mp4: "http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.mp4",
+        ogg: "http://flair.wpengine.com/wp-content/uploads/2014/07/RooftopClouds.ogv"
+    }
+});
+    });
+    
+    </script>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
@@ -997,11 +1003,13 @@ END MP4 VIDEO SECTION
 <script src="js/retina.min.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/matchMedia.js"></script>
-<!-- JQUERY -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/jquery.fitvids.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/core.js"></script>
+<script src="js/transition.js"></script>
+<script src="js/background.js"></script>
 
 </body>
 </html>
