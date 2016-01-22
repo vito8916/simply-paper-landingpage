@@ -7,7 +7,7 @@ jQuery(window).load(function() {
 	jQuery(".status").fadeOut();
         // will fade out the whole DIV that covers the website.
 	jQuery(".preloader").delay(1000).fadeOut("slow");
-})
+});
 
 /* =================================
 ===  RESPONSIVE VIDEO           ====
@@ -22,7 +22,7 @@ $(".video-container").fitVids();
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "https://us12.admin.mailchimp.com/lists/members/?id=119233" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+    url: "https://us12.admin.mailchimp.com/lists/members/?id=119233" 
 });
 
 function mailchimpCallback(resp) {
@@ -50,7 +50,7 @@ $(document).ready(function() {
 });
 
 
-/* COLLAPSE NAVIGATION ON MOBILE AFTER CLICKING ON LINK - ADDED ON V1.5*/
+/* COLLAPSE NAVIGATION ON MOBILE AFTER CLICKING ON LINK 
 
 if (matchMedia('(max-width: 480px)').matches) {
     $('.main-navigation a').on('click', function () {
@@ -193,7 +193,7 @@ $("#subscribe").submit(function (e) {
         return pattern.test(emailAddress);
     };
 
-    if (isValidEmail(email)) {
+    if (isValidEmail(email) && (email.length > 1)) {
         $.ajax({
             type: "POST",
             url: "subscribe/subscribe.php",

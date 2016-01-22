@@ -23,6 +23,10 @@
 ============================== -->
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Google MDL -->
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
 <!-- FONT ICONS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
@@ -48,10 +52,10 @@
 <link rel="stylesheet" href="css/background.css">
 
 <!-- COLORS -->
-<!-- <link rel="stylesheet" href="css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="css/colors/blue.css"> 
 <!-- <link rel="stylesheet" href="css/colors/red.css"> -->
 <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
-<link rel="stylesheet" href="css/colors/purple.css">
+<link rel="stylesheet" href="css/colors/purple.css">     <!-- COLOR USED -->
 <!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
 <!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> -->
 <!-- <link rel="stylesheet" href="css/colors/slate.css"> -->
@@ -87,7 +91,7 @@
 <header class="header" data-stellar-background-ratio="0.5" id="home">
 
 <!-- COLOR OVER IMAGE -->
-<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<div class="color-overlay"> <!-- To Use HEADER IMAGE IN FULLSCREEN MAKE THIS... Example: <div class="color-overlay full-screen">  -->
 
 	<!-- STICKY NAVIGATION -->
 	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
@@ -147,8 +151,7 @@
 					<!-- BUTTON -->
 					<div class="buttons" id="download-button">
 
-						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="zmdi zmdi-android"></i>Descargar App</a>
-
+						<a href="#download" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent "><i class="material-icons">android</i> Descargar App</a>
 					</div>
 					<!-- /END BUTTONS -->
 
@@ -181,7 +184,7 @@
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
-			Conoce algunas de nuestras fantasticas características
+			Conoce algunas de nuestras fantásticas características
 		</div>
 		<div class="colored-line">
 		</div>
@@ -208,7 +211,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">Diseño Material Design</h4>
 					<p>
-						 Innovador y hermoso diseño al más puro estilo de material desing, intuitivo y fácil de navegar.
+						 Innovador y hermoso diseño al mas puro estilo de material desing, intuitivo y fácil de navegar.
 					</p>
 				</div>
 
@@ -250,7 +253,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">10+ Categorias</h4>
 					<p>
-						 Contamos con más de 10 de las catergorias más solicitadas.
+						 Contamos con más de las 10 catergorias más solicitadas.
 					</p>
 				</div>
 
@@ -374,8 +377,8 @@
 
 			<p>
 				Con simply Paper realizas únicamente un pago inicial y
-				obtines acceso a todas las ilustraciones disponibles en la app,
-				también las multiples opciones para interactuar con cada imágen.
+				obtienes acceso a todas las ilustraciones disponibles en la app,
+				también a las multiples opciones para interactuar con cada imágen.
 
 			</p>
 
@@ -419,10 +422,11 @@
 			</div>
 
 			<p>
+			     Las imágenes se adaptan a cualquier tamaño de pantalla de smartphones sin importar su resolución o dencidad de
+                pixeles por pulgada(dpi) para que no te pierdas ni un tan solo pixel de tu imágen favorita.<br/><br/>
 				Imágenes que no solo se adaptan a tu pantalla, también se adaptan a tu dispositivo. No importa que tipo de smartphone poseas,
-                hemos pensado en todos sin dejar de lado a nadie y es por eso que las imagenes se adaptan según las especificaciones de tu smartphone.<br/><br/>
-				Las imágenes se adaptan a cualquier tamaño de pantalla de smartphones sin importar su resolución o dencidad de
-				pixeles por pulgada(dpi) para que no te pierdas ni un tan solo pixel de tu imágen favorita.
+                hemos pensado en todos sin dejar de lado a nadie y es por ello que las imagenes se adaptan según las especificaciones de tu smartphone.<br/><br/>
+				
 			</p>
 
 		</div>
@@ -486,7 +490,8 @@
 			</div>
 
 			<p>
-				Cómo funciona Simply Paper? Te mostramos un pequeño vídeo en el cual se ejecutan las principales funciones
+				¿Cómo funciona Simply Paper? <br>
+				Te mostramos un pequeño vídeo en el cual se ejecutan las principales funciones
 				u opciones que podemos realizar con cada imágen.<br/><br/>
 				En el vídeo se aprecia como cada una de las ilustraciones se adapta por completo a la pantalla del smartphone,
 				como también la magnifica opción de Descargar la imágen.
@@ -506,7 +511,7 @@
 <!-- /END SECTION -->
 
 <!-- =========================
-     TESTIMONIALS
+     VIDEO MP4 SECTION
 ============================== -->
 <!-- -->
 
@@ -530,7 +535,7 @@ END MP4 VIDEO SECTION
 
 
 <!-- =========================
-     SERVICES
+     SERVICES SECTION
 ============================== -->
 
 <section class="services" id="services">
@@ -541,7 +546,7 @@ END MP4 VIDEO SECTION
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Otras Caracteristicas</h2>
+		<h2 class="dark-text">Otras Características</h2>
 
 		<div class="colored-line">
 		</div>
@@ -589,7 +594,7 @@ END MP4 VIDEO SECTION
 
 			<!-- SERVICE DESCRIPTION -->
 			<p>
-				 Tienes preguntas?, necesitas ayuda?, Quieres saber más acerca de nosotros?
+				 ¿Tienes preguntas? ¿Necesitas ayuda? ¿Quieres saber más acerca de nosotros?<br>
 				 Escribenos desde las sección de "Ayuda" de la app y ponte en contacto con el
 				 desarrollador de Simply paper.
 			</p>
@@ -628,7 +633,7 @@ END MP4 VIDEO SECTION
 
 
 <!-- =========================
-     SCREENSHOTS
+     SCREENSHOTS SECTION
 ============================== -->
 <section class="screenshots grey-bg" id="screenshot-section">
 
@@ -701,7 +706,7 @@ END MP4 VIDEO SECTION
 
 
 <!-- =========================
-     PRICING TABLE | Added on version 1.7
+     PRICING TABLE 
 ============================== -->
 <section class="packages" id="packages">
 
@@ -794,7 +799,7 @@ END MP4 VIDEO SECTION
 
 
 <!-- =========================
-     DOWNLOAD NOW
+     DOWNLOAD NOW SECTION
 ============================== -->
 <section class="download" id="download">
 
@@ -812,7 +817,7 @@ END MP4 VIDEO SECTION
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 
-						<a href="https://play.google.com/store/apps/details?id=com.dev.victor.spaper" class="btn btn-default btn-lg standard-button"><i class="icon-google-play"></i>Play Store</a>
+						<a href="https://play.google.com/store/apps/details?id=com.dev.victor.spaper" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><i class="material-icons">android</i> Play Store</a>
 
 					</div>
 					<!-- /END BUTTONS -->
@@ -830,17 +835,21 @@ END MP4 VIDEO SECTION
 					     MAILCHIMP FORM STARTS
 					     ===================== -->
 
-					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
 
 						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-						<h4 class="subscription-success"></h4>
-						<h4 class="subscription-error"></h4>
+						<h4 class="subscription-success">
+						    <i class="icon_check"></i> Suscripción exitosa. Te enviaremos un correo.
+						</h4>
+						<h4 class="subscription-error">
+						    <i class="icon_error-circle_alt"></i> Algo a salido mal. Intentalo más tarde.
+						</h4>
 
 						<!-- EMAIL INPUT BOX -->
 						<input type="email" name="email" id="subscriber-email" placeholder="Email" class="form-control input-box">
 
 						<!-- SUBSCRIBE BUTTON -->
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Suscribirse</button>
+						<button type="submit" id="subscribe-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Suscribirse</button>
 
 					</form>
 					<!-- /END MAILCHIMP FORM STARTS -->
@@ -849,7 +858,7 @@ END MP4 VIDEO SECTION
 					     LOCAL TXT FORM STARTS
 					     ===================== -->
 
-					<!-- THIS FORM IS COMMENTED TO HIDE
+					<!-- THIS FORM IS AN OPTION
 
 					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
 
@@ -928,7 +937,7 @@ END MP4 VIDEO SECTION
 						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message"></textarea>
 					</div>
 
-					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Enviar Mensaje</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" type="submit" id="submit" name="submit" data-style="expand-left"><i class="material-icons">send</i> Enviar Mensaje</button>
 
 				</form>
 				<!-- /END FORM -->
@@ -946,13 +955,14 @@ END MP4 VIDEO SECTION
 
 	<!-- SOCIAL ICONS -->
 	<ul class="social-icons">
-		<li><a href="https://www.facebook.com/simplypaperhn/"><i class="social_facebook_square"></i></a></li>
-		<li><a href=""><i class="social_twitter_square"></i></a></li>
+		<li><a href="https://www.facebook.com/simplypaperhn/"><i class="zmdi zmdi-facebook-box"></i></a></li>
+		<li><a href=""><i class="zmdi zmdi-twitter-box"></i></a></li>
 		<!--<li><a href=""><i class="social_pinterest_square"></i></a></li>-->
-		<li><a href="https://plus.google.com/u/0/communities/108197617256280498502"><i class="social_googleplus_square"></i></a></li>
-		<li><a href=""><i class="social_instagram_square"></i></a></li>
+		<li><a href="https://plus.google.com/u/0/communities/108197617256280498502"><i class="zmdi zmdi-google-plus-box"></i></a></li>
+		<li><a href=""><i class="zmdi zmdi-instagram"></i></a></li>
 		<!--<li><a href=""><i class="social_dribbble_square"></i></a></li>-->
-		<li><a href="https://www.flickr.com/groups/simplypaper/"><i class="social_flickr_square"></i></a></li>
+		<li><a href="https://www.flickr.com/groups/simplypaper/"><i class="fa fa-flickr"></i></a></li>
+		<li><a href="http://www.freepik.com"><img src="images/logotype132.png"></img></a></li>
 	</ul>
 
 	<!-- COPYRIGHT TEXT -->
@@ -1008,6 +1018,7 @@ END MP4 VIDEO SECTION
 <script src="js/retina.min.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/matchMedia.js"></script>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/jquery.fitvids.js"></script>
