@@ -120,6 +120,7 @@
 					<li><a href="#services">Servicios</a></li>
 					<li><a href="#screenshot-section">Screenshots</a></li>
 					<li><a href="#download">Descarga</a></li>
+					<li><a href="http://blogsimplypaper.blogspot.com">Blog</a></li>
 				</ul>
 			</div>
 		</div> <!-- /END CONTAINER -->
